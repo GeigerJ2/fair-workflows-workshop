@@ -4,7 +4,7 @@
 # jupyter tool
 #
 /usr/bin/invoke_app "$@" -t aiida \
-                         -C "start_jupyter -T @tool -t 0-landing-page.ipynb" \
+                         -C "start_jupyter -T @tool -t aiida.ipynb" \
                          -u anaconda-7 \
                          -r none \
                          -w headless
