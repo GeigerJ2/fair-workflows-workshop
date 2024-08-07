@@ -1,4 +1,4 @@
-# Tutorial notebooks for the AiiDA hands-on session of the FAIR workflows workshop held at Purdue university 13-14/08/2024
+# Tutorial notebooks for the AiiDA hands-on session of the FAIR workflows workshop at Purdue University on 2024-08-13
 
 1. [Setup](notebooks/1-aiida-setup.ipynb)
 2. [AiiDA basics and concepts](notebooks/2-aiida-basics.ipynb)
