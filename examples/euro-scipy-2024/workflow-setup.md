@@ -1,0 +1,3 @@
+- 1. Create database using Python script
+- 2. Matrix diagonalization using compiled binary
+- 3. Cleanup script
