@@ -39,6 +39,6 @@ if __name__ == "__main__":
         raise FileNotFoundError(f"Could not find database file {db_path.absolute()}.")
     else:
         mat = query_matrix(db_path, args.pk)
-        filename = f"{args.pk}"
+        filename = f"matrix-{args.pk}"
         np.save(filename, mat)
         print(f"Saved matrix to file {filename}.npy")
