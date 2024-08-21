@@ -46,7 +46,7 @@ fn main() {
                 },
             };
             let mat = read_npy(filename);
-            println!("Matb {}", mat);
+            // println!("Matb {}", mat);
             let schur = mat.schur();
             let eigvals = schur.complex_eigenvalues();
             println!("Eigvals {}", eigvals);
