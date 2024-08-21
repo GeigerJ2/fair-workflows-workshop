@@ -1,4 +1,4 @@
-### Creating matrix databes
+### How to create the matrices.db
 
 To create the database with matrices 
 
@@ -7,7 +7,7 @@ python create_database.py # you will get an error the matrices.db still exists
 cp matrices ../
 ```
 
-### Compiling diagonlization binary
+### How to compile diagonalization binary with the rust code
 
 For producing the binary for running the rust project do
 
@@ -15,4 +15,11 @@ For producing the binary for running the rust project do
 cd diager-rs
 cargo build --release # compile release version
 cp target/release/diager-rs ../../diagar-rs/default # overwrite default binary
+```
+
+### How to compile the python diagonalization file
+```code
+pip install nuitka
+sudo apt install patchelf
+nuitka --standalone diager.py
 ```
