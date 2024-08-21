@@ -1,0 +1,1 @@
+/home/geiger_j/aiida_projects/fair-workflows-workshop/git-repos/fair-workflows-workshop/data/euro-scipy-2024/diag-wf/devtools/diager-rs/target/release/diager-rs: /home/geiger_j/aiida_projects/fair-workflows-workshop/git-repos/fair-workflows-workshop/data/euro-scipy-2024/diag-wf/devtools/diager-rs/src/main.rs
