@@ -12,6 +12,6 @@ For producing the binary for running the rust project do
 
 ```console
 cd diager-rs
-cargo build --release
-cp target/release/diager-rs ../../
+cargo build --release # compile release version
+cp target/release/diager-rs ../../diagar-rs/default # overwrite default binary
 ```
