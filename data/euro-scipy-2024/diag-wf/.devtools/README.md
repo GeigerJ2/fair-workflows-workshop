@@ -3,7 +3,8 @@
 To create the database with matrices 
 
 ```console
-python create_database.py
+python create_database.py # you will get an error the matrices.db still exists  
+cp matrices ../
 ```
 
 ### Compiling diagonlization binary
