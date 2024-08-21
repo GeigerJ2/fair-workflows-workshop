@@ -1,6 +1,6 @@
 # How to compile
 ```code
-pip install nukita
+pip install nuitka
 sudo apt install patchelf
 nuitka --standalone diager.py
 ```
