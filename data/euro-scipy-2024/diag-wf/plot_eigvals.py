@@ -36,7 +36,7 @@ def read_eigenvals(file_path):
     return eigenvalues
 
 
-def plot_eigenvals(eigenvalues, plot_type):
+def plot_eigvals(eigenvalues, plot_type):
     # Create a figure and axis object
     fig, ax = plt.subplots(figsize=(8, 6))
 
@@ -83,7 +83,7 @@ if __name__ == "__main__":
             f"Could not find the input file {input_file.resolve()}."
         )
 
-    fig, ax = plot_eigenvals(eigenvalues=eigenvalues, plot_type=plot_type)
+    fig, ax = plot_eigvals(eigenvalues=eigenvalues, plot_type=plot_type)
 
     # Save the plot outside of the function
     filename = input_file.replace('.txt', '')
