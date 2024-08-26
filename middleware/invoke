@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo 'export PATH=$PATH:$HOME/fair-workflows-workshop/data/euro-scipy-2024/diag-wf/' >> ~/.bash_profile
+echo 'export PATH=$PATH:$HOME/fair-workflows-workshop/data/euro-scipy-2024/diag-wf/bin/default' >> ~/.bash_profile
+
 #
 # jupyter tool
 #
