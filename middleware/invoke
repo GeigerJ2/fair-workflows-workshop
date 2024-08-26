@@ -1,13 +1,11 @@
 #!/bin/sh
 
-echo 'export PATH=$PATH:$HOME/fair-workflows-workshop/data/euro-scipy-2024/diag-wf/' >> ~/.bash_profile
-echo 'export PATH=$PATH:$HOME/fair-workflows-workshop/data/euro-scipy-2024/diag-wf/bin/default' >> ~/.bash_profile
-
 #
 # jupyter tool
 #
 /usr/bin/invoke_app "$@" -t aiida \
                          -C "start_jupyter -T @tool -t aiida.ipynb" \
                          -u anaconda-7 \
+                         -u aiida-0.7.3 \
                          -r none \
                          -w headless
